@@ -27,7 +27,7 @@ fun main(){
                 else (firstItem + lastItem - 1) / 2
 
             /**
-             * the binary search which adopts divide and conquer approach divides the array into two
+             * the binary search which adopts divide & conquer approach divides the array into two
              * it then compares the middle number to check if its the number we are looking for
              * if the check is true the value index will be set to the middle item
              * a message is also displayed to the user that number have been found with index number specified
@@ -39,7 +39,7 @@ fun main(){
                 break
             }
             /**
-             * if the prior check is false and the middle value is greater than the value we are looking for
+             * if the prior check is false & the middle value is greater than the value we are looking for
              * we simply move the index of the last value backward just before the midddle number
              * this eliminates the other part of the array as other values higher than the middle values are invalid
              */
